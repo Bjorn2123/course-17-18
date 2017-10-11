@@ -1,6 +1,6 @@
 # Interactivity
 
-For this assignment i choose the [Bar Chart](https://bl.ocks.org/mbostock/3885304). After I put HTML, CSS and JS into their own files I starten to work with the code. 
+For this assignment I choose the [Bar Chart](https://bl.ocks.org/mbostock/3885304). After I put HTML, CSS and JS into their own files I started to work with the code. 
 
 ## Code I Changed
 
@@ -34,7 +34,7 @@ var yAxis = d3.axisLeft(y)
     .tickFormat(formatPercent);
 ```
     
-The following code I changed was a hard for me. That's why I looked at [d3.gallery](https://github.com/d3/d3/wiki/Gallery) for a couple examples. When i found the following code I adjusted it as far as I was capable of so that a transition was made in the chart. I applied the ease bounce, transition, delay and duration to this code. 
+The following code I changed was hard for me. That's why I looked at [d3.gallery](https://github.com/d3/d3/wiki/Gallery) for a couple examples. When I found the following code I adjusted it as far as I was capable of so that a transition was made in the chart. I applied the ease bounce, transition, delay and duration to this code. 
 
 ```js
    function change() {
@@ -75,4 +75,4 @@ The following code I changed was a hard for me. That's why I looked at [d3.galle
     }
 ```
 
-To let this all work i made a label in my html file that after it was checked let the chart move. I did that with the first function showed on the above code.
+To let this all work I made a label in my html file that after it was checked it let the chart move. I did that with the first function showed in the above code.
